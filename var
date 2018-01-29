@@ -1,4 +1,8 @@
 //js//
+
+* NaN 0 undefined = false, 其他 = true *
+
+1.
 #data #var #function
 no 數據類型(data type)
 use 'var' to create 變量
@@ -7,12 +11,15 @@ function a1(){  函數
    var x =10;
    alert(x);
  }
- 
+2.
  #parseInt #跳出整數ex:2  以下錯誤：
  function a3(){
     var x = "ee2px";
     alert(parseInt(x));
 }
 一定要 var x = "2px" 第一個字要數字
+3.
+var x = [1,2,3,"2"];
+alert(typeof x);      //print object 數組會顯示 object
 
 

@@ -14,3 +14,5 @@ function a1(){  函數
     alert(parseInt(x));
 }
 一定要 var x = "2px" 第一個字要數字
+
+

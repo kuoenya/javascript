@@ -1,0 +1,7 @@
+#!! #轉換成布林 Boolean
+alert(!!0)
+
+----
+一個變量沒有定義值,就是undefined類型 undefined類型 = false
+var size;
+alert(!!size);
